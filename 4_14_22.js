@@ -40,12 +40,12 @@ for(var i=0; i<pokémon.length; i++) {
     }
 }
 
-// the pokémon objects that have more than one type
-// for(var i=0; i<pokémon.length; i++) {
-//     if(pokémon[i].types.length > 1) {
-//         console.log(pokémon[i].name);
-//     }
-// }
+the pokémon objects that have more than one type
+for(var i=0; i<pokémon.length; i++) {
+    if(pokémon[i].types.length > 1) {
+        console.log(pokémon[i].name);
+    }
+}
 
 // the names of the pokémon whose only type is "poison"
 

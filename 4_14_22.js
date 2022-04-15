@@ -33,12 +33,12 @@ var pokémon = [
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ];
 
-//the pokémon objects whose id is evenly divisible by 3
-// for(var i=0; i<pokémon.length; i++) {
-//     if(pokémon[i].id % 3 ==0) {
-//         console.log(pokémon[i].name);
-//     }
-// }
+the pokémon objects whose id is evenly divisible by 3
+for(var i=0; i<pokémon.length; i++) {
+    if(pokémon[i].id % 3 ==0) {
+        console.log(pokémon[i].name);
+    }
+}
 
 // the pokémon objects that have more than one type
 // for(var i=0; i<pokémon.length; i++) {

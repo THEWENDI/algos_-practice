@@ -1,11 +1,11 @@
-// var monster = {
-//     id: 1,
-//     name: "Bulbasaur",
-//     types: ["poison", "grass"]
-// };
+var monster = {
+    id: 1,
+    name: "Bulbasaur",
+    types: ["poison", "grass"]
+};
 
-// console.log(monster.name)
-// console.log(monster.types[1])
+console.log(monster.name)
+console.log(monster.types[1])
 
 // var pokémon = [
 //     { "id": 1,   "name": "Bulbasaur",  "types": ["poison", "grass"] },

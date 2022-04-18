@@ -5,8 +5,8 @@ function d6() {
      return roll;
  }
     
-// var playerRoll = d6();
-// console.log("The player rolled: " + playerRoll);
+var playerRoll = d6();
+console.log("The player rolled: " + playerRoll);
 
 
 // function getRndInteger(min, max) {

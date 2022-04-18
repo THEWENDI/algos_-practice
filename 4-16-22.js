@@ -1,9 +1,9 @@
 
-// function d6() {
-//     var roll = Math.random();
-//         roll = Math.floor(Math.random()*(6-1+1))+1;
-//     return roll;
-// }
+function d6() {
+     var roll = Math.random();
+         roll = Math.floor(Math.random()*(6-1+1))+1;
+     return roll;
+ }
     
 // var playerRoll = d6();
 // console.log("The player rolled: " + playerRoll);

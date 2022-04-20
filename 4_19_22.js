@@ -64,10 +64,10 @@ console.log(stringRepeat("sup", 10));
  * this question?
  * @returns {number} The miles until empty.
  */
-// function milesToEmpty(mpg, gallonintank) {
-//     return mpg * gallonintank
-// }
-// console.log(milesToEmpty(30, 17))
+function milesToEmpty(mpg, gallonintank) {
+    return mpg * gallonintank
+}
+console.log(milesToEmpty(30, 17))
 
 /**6
  * Determines the total of the lengths of the words in the given array.

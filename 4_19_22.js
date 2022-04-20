@@ -1,10 +1,10 @@
-//1
-function addTwoNums(num1, num2) {
-    return num1 + num2;
-}
+// //1
+// function addTwoNums(num1, num2) {
+//     return num1 + num2;
+// }
 
-let sum = addTwoNums(5, 10);
-console.log("adding 5 and 10 :", sum);
+// let sum = addTwoNums(5, 10);
+// console.log("adding 5 and 10 :", sum);
 
 let netSalesPrice = 100;
 let tax = 10;

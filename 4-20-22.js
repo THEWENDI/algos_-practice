@@ -41,7 +41,7 @@ function indexOf(items, searchItem) {
     return result
 }
 
-function indexOf(items = [], searchItem) {
+function indexOf3(items = [], searchItem) {
   for (let i = 0; i < items.length; i++) {
     if (items[i] === searchItem) {
       // the function is over when returning, so this also breaks the loop.
@@ -51,6 +51,17 @@ function indexOf(items = [], searchItem) {
   return -1;
 }
 
+function indexOf2(items = [], searchItem) {
+  let foundIdx = -1;
+
+  for (let i = 0; i < items.length; i++) {
+    if (items[i] === searchItem) {
+      foundIdx = i;
+      break;
+    }
+  }
+  return foundIdx;
+}
 // Tests
 const result1 = indexOf(arr1, searchItem1);
 console.log(result1, "should be", expected1);

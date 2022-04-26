@@ -1,25 +1,25 @@
-function twoNumberSum(array, targetSum) {
-    for (i = 0; i < array.length - 1; i++) {
-        let firstnum = array[i];
-        for (j = i + 1; j < array.length; j++) {
-            let secondnum = array[j];
-            if (firstnum + secondnum === targetSum) {
-                return [firstnum, secondnum];
-            }
-        }
-    }
-    return [];
-}
-let array = [4, 6, 1];
-let targetSum = 5;
+// function twoNumberSum(array, targetSum) {
+//     for (i = 0; i < array.length - 1; i++) {
+//         let firstnum = array[i];
+//         for (j = i + 1; j < array.length; j++) {
+//             let secondnum = array[j];
+//             if (firstnum + secondnum === targetSum) {
+//                 return [firstnum, secondnum];
+//             }
+//         }
+//     }
+//     return [];
+// }
+// let array = [4, 6, 1];
+// let targetSum = 5;
 
-console.log(twoNumberSum(array, targetSum))
+// console.log(twoNumberSum(array, targetSum))
 
-const array1 = ['a', 'b', 'c'];
+// const array1 = ['a', 'b', 'c'];
 
-for (const element of array1) {
-    console.log(element);
-}
+// for (const element of array1) {
+//     console.log(element);
+// }
 
 function twoNumberSum(array, target) {
 

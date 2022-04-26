@@ -15,29 +15,29 @@ let targetSum = 5;
 
 console.log(twoNumberSum(array, targetSum))
 
-// const array1 = ['a', 'b', 'c'];
+const array1 = ['a', 'b', 'c'];
 
-// for (const element of array1) {
-//     console.log(element);
-// }
+for (const element of array1) {
+    console.log(element);
+}
 
-// function twoNumberSum(array, target) {
+function twoNumberSum(array, target) {
 
-//     const nums = []; // empty array
+    const nums = []; // empty array
 
-//     for (const num of array) {
-//         const potentialMatch = target - num;
-//         console.log('potential', potentialMatch);
-//         if (nums.includes(potentialMatch)) {
-//             return ['ansewr', potentialMatch, num] // two numbers found
-//         } else {
-//             nums.push(num); // push number to nums array
-//             console.log(nums);
-//         }
-//     }
-// }
+    for (const num of array) {
+        const potentialMatch = target - num;
+        console.log('potential', potentialMatch);
+        if (nums.includes(potentialMatch)) {
+            return ['ansewr', potentialMatch, num] // two numbers found
+        } else {
+            nums.push(num); // push number to nums array
+            console.log(nums);
+        }
+    }
+}
 
-// console.log(twoNumberSum([1, 4, 9, 16], 13))
+console.log(twoNumberSum([1, 4, 9, 16], 13))
 
 
 

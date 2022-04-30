@@ -31,22 +31,22 @@ function isValidSubsequence(array, sequence) {
 // console.log(isValidSubsequence(array, sequence));
 
 
-function sortedSquaredArray(array) {
-    let sarray = [];
-    let startidx = 0;
-    let endidx = array.length - 1;
-    for (let i = array.length - 1; i >= 0; i--) {
-        let startvalue = array[startidx];
-        let endvalue = array[endidx];
-        if (Math.abs(startvalue) > Math.abs(endvalue)) {
-            sarray[i] = startvalue * startvalue;
-            startidx++;
-        } else {
-            if (Math.abs(endvalue) >= Math.abs(startvalue)) {
-                sarray[i] = endvalue * endvalue;
-                endidx--;
-            }
-        }
-    }
-    return sarray;
-}
+// function sortedSquaredArray(array) {
+//     let sarray = [];
+//     let startidx = 0;
+//     let endidx = array.length - 1;
+//     for (let i = array.length - 1; i >= 0; i--) {
+//         let startvalue = array[startidx];
+//         let endvalue = array[endidx];
+//         if (Math.abs(startvalue) > Math.abs(endvalue)) {
+//             sarray[i] = startvalue * startvalue;
+//             startidx++;
+//         } else {
+//             if (Math.abs(endvalue) >= Math.abs(startvalue)) {
+//                 sarray[i] = endvalue * endvalue;
+//                 endidx--;
+//             }
+//         }
+//     }
+//     return sarray;
+// }

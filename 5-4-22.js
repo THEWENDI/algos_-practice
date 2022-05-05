@@ -13,7 +13,7 @@ function nonConstructibleChange(coins) {
     return change + 1
 }
 
-// console.log(nonConstructibleChange(coins));
+console.log(nonConstructibleChange(coins));
 
 
 //

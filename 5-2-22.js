@@ -39,4 +39,4 @@ function updateScore(team, point, score) {
 }
 
 
-console.log(tournamentWinner(competitions, results))
+// console.log(tournamentWinner(competitions, results))

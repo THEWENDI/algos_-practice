@@ -25,5 +25,5 @@ function helpersums(node, runningsum, sums) {
 }
 
 // Do not edit the lines below.
-exports.BinaryTree = BinaryTree;
-exports.branchSums = branchSums;
+// exports.BinaryTree = BinaryTree;
+// exports.branchSums = branchSums;

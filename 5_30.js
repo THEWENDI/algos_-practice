@@ -29,16 +29,16 @@ class BST {
     return this;
   }
 
-//   contains(value) {
-//     let currentNode = this;
-// 		while(currentNode !== null){
-// 			if(value < curentNode.value){
-// 				currentNode = currentNode.left;
-// 			}else if(value > currentNode.value){
-// 				currentNode = currenNode.right;
-// 			}else{
-// 				return true;
-// 			}
-// 		}
-// 		return false;
-//   }
+  contains(value) {
+    let currentNode = this;
+		while(currentNode !== null){
+			if(value < curentNode.value){
+				currentNode = currentNode.left;
+			}else if(value > currentNode.value){
+				currentNode = currenNode.right;
+			}else{
+				return true;
+			}
+		}
+		return false;
+  }

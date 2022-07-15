@@ -42,3 +42,19 @@ class BST {
 		}
 		return false;
   }
+const nums = [1, 2, 3, 1, 1, 6]
+
+var containsDuplicate = function (nums) {
+    //Pass the array into a Set() (which removes duplicates) and then compare its size to the original array. 
+    console.log(new Set(nums));
+    return new Set(nums).size !== nums.length;
+};
+
+console.log(containsDuplicate(nums))
+
+let string1 = 'drpoklj'
+
+let string2 = string1.split('').sort().join('');
+
+
+console.log(string2);

@@ -1,5 +1,5 @@
-//////Two Sum - Unique Pairs///////
-///////////////////////////////////
+////Two Sum - Unique Pairs///////
+/////////////////////////////////
 
 // Write a function that takes a list of numbers and a target number, and then returns the number of unique pairs that add up to the target number.
 

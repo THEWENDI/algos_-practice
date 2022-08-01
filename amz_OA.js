@@ -743,3 +743,41 @@ var findMin = function(nums) {
         }
     }
 };
+
+var reorderList = function(head) {
+    if(!head){
+        return;
+    }
+    
+    let fast = head;
+    let slow = head;
+    
+    while(fast && fast.next){
+        fast = fast.next.next;
+        slow = slow.next
+    }
+    
+    let prev = null;
+    let curr = slow;
+    
+    while(curr){
+        let nxt = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = nxt;
+    }
+    
+    let first = head;
+    let second = prev;
+    
+    while(second.next){
+        let tempnxt = first.next;
+        first.next = second;
+        first = tempnxt;
+        
+        tempnxt = second.next;
+        second.next = first;
+        second = tempnxt;
+    }
+    
+};

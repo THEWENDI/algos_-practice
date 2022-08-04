@@ -781,3 +781,42 @@ var reorderList = function(head) {
     }
     
 };
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var maxDepth = function(root) {
+    if(root === null){
+        return 0;
+    }
+    let qeueu = [root];
+    let res = 0;
+    
+    while(qeueu.length){
+        console.log("qeueu:",qeueu)
+        let count = qeueu.length
+        for(let i = 0; i < count ; i++){
+            let node = qeueu.shift();
+            console.log("node:",node)
+            if(node.left){
+                qeueu.push(node.left);
+            }
+            if(node.right){
+                qeueu.push(node.right);
+            }      
+        }
+        res ++
+        console.log("res:",res)
+        
+    }
+    return res
+    
+};

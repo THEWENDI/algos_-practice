@@ -820,3 +820,31 @@ var maxDepth = function(root) {
     return res
     
 };
+//////Same Tree////////////////////
+///////////////////////////////////
+var isSameTree = function(p, q) {
+    if(!check(p,q))return false;
+    let queueP = [p];
+    let queueQ = [q];
+    
+    while(queueP.length){
+        let p = queueP.shift();
+        let q = queueQ.shift();
+        if(!check(p,q)) return false;
+        if(p){
+                if(!check(p.right,q.right)) return false;
+                if(p.right){
+                    queueP.push(p.right);
+                    queueQ.push(q.right);
+                }
+                if(!check(p.left,q.left))return false;
+                if(p.left){
+                    queueP.push(p.left);
+                    queueQ.push(q.left);
+                }
+            }
+        
+        }
+    return true
+    
+};
